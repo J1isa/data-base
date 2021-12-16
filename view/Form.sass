@@ -1,0 +1,32 @@
+.form-component
+  $left: 120px
+  $pad: 20px
+
+  display: flex
+  flex-direction: column
+  padding: $pad
+  position: relative
+
+  .row
+    display: flex
+    flex-direction: column
+    padding-left: $left
+    margin-top: 10px
+
+    &.area
+      padding-left: 0
+
+      textarea
+        margin-top: 20px
+        resize: vertical
+
+    span
+      position: absolute
+      left: $pad
+      width: $left
+
+  button
+    margin: 10px
+
+  p
+    text-align: center

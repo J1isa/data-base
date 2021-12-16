@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "CommonJS",
+    "jsx": "react",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "inlineSourceMap": true,
+    "baseUrl": ".",
+    "paths": {
+      "model": ["./model"],
+      "view": ["./view"],
+      "lib": ["./lib"],
+      "screen": ["./screen"]
+    }
+  }
+}
